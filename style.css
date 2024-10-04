@@ -1,3 +1,80 @@
 * {
     font-style: Roboto;
 }
+
+body {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    color: #F9FAF8;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto; 
+}
+
+.header {
+    background-color: #1F2937;;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.menu-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-company {
+
+}
+
+.about-left {
+
+}
+
+.about-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900; 
+}
+
+.about-main {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: small;
+    text-align: center;
+}
