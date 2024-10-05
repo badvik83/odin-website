@@ -81,7 +81,8 @@ button {
 
 .sign-up {
     background-color: #3882F6;
-    max-width: 30%;
+    /* max-width: 30%; */
+    align-self: flex-start;
     color: #F9FAF8;
 }
 
@@ -138,10 +139,35 @@ button {
     text-align: right;
 }
 
+.call-to-action {
+    margin: 36px 0;
+}
+
+.cta-mainbox {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 36px;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+.cta-header {
+    font-size: 18px;
+    font: bold;
+}
+
+.cta-mainbox button {
+    background-color: #3882F6;
+    border: solid, #F9FAF8;
+    color: #F9FAF8;
+}
 
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: small;
     text-align: center;
+    padding: 18px 0;
 }
