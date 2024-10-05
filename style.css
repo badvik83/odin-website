@@ -2,10 +2,6 @@
     font-style: Roboto;
 }
 
-body {
-    box-sizing: border-box;
-}
-
 ul {
     margin: 0;
     padding: 0;
@@ -18,8 +14,19 @@ a {
     color: #F9FAF8;
 }
 
+button {
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .wrapper {
     width: 70%;
+    margin: auto; 
+    padding: 18px;
+}
+
+.narrow-wrapper {
+    width: 60%;
     margin: auto; 
     padding: 18px;
 }
@@ -75,9 +82,7 @@ a {
 .sign-up {
     background-color: #3882F6;
     max-width: 30%;
-    border-radius: 5px;
     color: #F9FAF8;
-    padding: 5px;
 }
 
 .about-right {
@@ -88,15 +93,50 @@ a {
     text-align: center;
 }
 
-.main-photo {
-}
-
 .main-information {
-    padding-top: 8px;
-    padding-bottom: 20px;
+    text-align: center;
 }
 
+.main-title {    
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 
+.main-elements {
+    display: flex;
+    flex-direction: row;
+    margin: 18px auto;
+    gap: 18px;
+}
+
+.main-elements img {
+    border: solid, 3px, #3882F6;
+    border-radius: 3px;
+}
+
+.img-and-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.testimonials-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonials-author {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
 
 
 .footer {
