@@ -20,11 +20,12 @@ a {
 
 .wrapper {
     width: 70%;
-    margin: 0 auto; 
+    margin: auto; 
+    padding: 18px;
 }
 
 .header {
-    background-color: #1F2937;;
+    background-color: #1F2937;
 }
 
 .menu {
@@ -46,28 +47,54 @@ a {
 }
 
 .about-company {
-
+    display: flex;
+    margin: 36px auto;
+    gap: 36px;
+    justify-content: space-between;
 }
 
 .about-left {
-
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
 }
 
 .about-header {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900; 
+    line-height: 0.8em;
 }
 
 .about-main {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 18px auto;
 }
 
+.sign-up {
+    background-color: #3882F6;
+    max-width: 30%;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px;
+}
 
+.about-right {
+    background-color: #e5e7eb9c;
+    color: #F9FAF8;
+    align-content: center;
+    flex: 1;
+    text-align: center;
+}
 
+.main-photo {
+}
 
-
+.main-information {
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
 
 
 
