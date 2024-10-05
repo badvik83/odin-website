@@ -81,7 +81,6 @@ button {
 
 .sign-up {
     background-color: #3882F6;
-    /* max-width: 30%; */
     align-self: flex-start;
     color: #F9FAF8;
 }
@@ -112,7 +111,7 @@ button {
 }
 
 .main-elements img {
-    border: solid, 3px, #3882F6;
+    border: solid 3px #3882F6;
     border-radius: 3px;
 }
 
@@ -160,7 +159,7 @@ button {
 
 .cta-mainbox button {
     background-color: #3882F6;
-    border: solid, #F9FAF8;
+    border: solid #F9FAF8;
     color: #F9FAF8;
 }
 
